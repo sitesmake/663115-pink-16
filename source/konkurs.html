@@ -31,10 +31,91 @@
     <main class="page-main">
       <section class="intro">
         <h1 class="intro__title">Конкурс на самое безбашенное путешествие с Pink</h1>
-        <p class="intro__description">оделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!Пожалуйста, заполните форму ниже:</p>
+        <p class="intro__description">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!Пожалуйста, заполните форму ниже:</p>
       </section>
 
       <section class="form">
+        <section class="form__group">
+          <div class="text-field form__text-field">
+            <label class="text-field__label" for="family">Фамилия:</label>
+            <input class="text-field__input" id="family" type="text" placeholder="Укажите фамилию *" required>
+          </div>
+          <div class="text-field form__text-field">
+            <label class="text-field__label" for="name">Имя:</label>
+            <input class="text-field__input" id="name" type="text" placeholder="Введите ваше имя *" required>
+          </div>
+          <div class="text-field form__text-field">
+            <label class="text-field__label" for="surname">Отчество:</label>
+            <input class="text-field__input" id="surname" type="text" placeholder="Ну и отчество тоже">
+          </div>
+        </section>
+
+        <section class="form__group form__group--gray">
+          <p class="form__group-description">Ваши безбашенные достижения в путешествии</p>
+          <div class="checkbox-field form__checkbox-field">
+            <input class="checkbox-field__input" id="achievment-1" type="checkbox">
+            <label class="checkbox-field__label" for="achievment-1">Сделал селфи с акулой</label>
+          </div>
+          <div class="checkbox-field form__checkbox-field">
+            <input class="checkbox-field__input" id="achievment-2" type="checkbox">
+            <label class="checkbox-field__label" for="achievment-2">Обгорел на пляже</label>
+          </div>
+          <div class="checkbox-field form__checkbox-field">
+            <input class="checkbox-field__input" id="achievment-3" type="checkbox">
+            <label class="checkbox-field__label" for="achievment-3">Видел Чака Норриса</label>
+          </div>
+          <div class="checkbox-field form__checkbox-field">
+            <input class="checkbox-field__input" id="achievment-4" type="checkbox">
+            <label class="checkbox-field__label" for="achievment-4">Накупил сувениров</label>
+          </div>
+          <div class="checkbox-field form__checkbox-field">
+            <input class="checkbox-field__input" id="achievment-5" type="checkbox">
+            <label class="checkbox-field__label" for="achievment-5">Удержал башню</label>
+          </div>
+          <div class="checkbox-field form__checkbox-field">
+            <input class="checkbox-field__input" id="achievment-6" type="checkbox">
+            <label class="checkbox-field__label" for="achievment-6">Разгромил отель</label>
+          </div>
+        </section>
+
+        <section class="form__group">
+          <div class="text-field form__text-field">
+            <label class="text-field__label" for="phone">Номер телефона:</label>
+            <input class="text-field__input" id="phone" type="text" placeholder="Номер, пожалуйста" >
+          </div>
+          <div class="text-field form__text-field">
+            <label class="text-field__label" for="email">Адрес почты</label>
+            <input class="text-field__input" id="email" type="text" placeholder="Введите почту *" required>
+          </div>
+        </section>
+
+        <section class="form__group form__group--gray">
+          <p class="form__group-description">С каким приложением путешествовали?</p>
+          <div class="radio-field form__radio-field">
+            <input class="radio-field__radio" name="travel" id="travel-1" type="radio">
+            <label class="radio-field__label" for="travel-1">Pink для iOS</label>
+          </div>
+          <div class="radio-field form__radio-field">
+            <input class="radio-field__radio" name="travel" id="travel-2" type="radio">
+            <label class="radio-field__label" for="travel-2">Pink на Android</label>
+          </div>
+          <div class="radio-field form__radio-field">
+            <input class="radio-field__radio" name="travel" id="travel-3" type="radio">
+            <label class="radio-field__label" for="travel-3">Windows Phone</label>
+          </div>
+        </section>
+
+        <section class="form__group">
+          <p class="form__group-description">Опишите свои эмоции</p>
+          <textarea class="textarea-field form__textarea-field" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+        </section>
+
+        <section class="form__group">
+          <button class="form__submit button" type="submit">Отправить форму</button>
+          <small class="form__legend">
+            <sup>*</sup> — Обязательные поля
+          </small>
+        </section>
       </section>
     </main>
 
