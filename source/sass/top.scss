@@ -1,2 +1,9 @@
 .top {
+  &__menu-toggle {
+    background: url('/img/icon-menu-cross.svg');
+    background-repeat: no-repeat;
+    border: none;
+    font-size: 0;
+    padding: 0;
+  }
 }

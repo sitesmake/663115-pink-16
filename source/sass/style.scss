@@ -2,7 +2,36 @@ $primary-color: #283645;
 $secondary-color: #fff;
 $third-color: #1d2631;
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensans.woff2") format("woff2");
+  src: url("/fonts/opensans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensansbold.woff2") format("woff2");
+  src: url("/fonts/opensansbold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/opensanslight.woff2") format("woff2");
+  src: url("/fonts/opensanslight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
 @import "reset";
 @import "page-header";
+@import "top";
 @import "main-nav";
 @import "jumbotron";
+
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+}
