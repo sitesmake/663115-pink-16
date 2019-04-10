@@ -4,6 +4,19 @@
 
   &__visual {
     background-image: url(/img/bg-back-mobile@1x.jpg);
+    height: 400px;
+    text-align: center;
+    position: relative;
+  }
+
+  &__in-action-image {
+    position: absolute;
+    bottom: 0px;
+    margin: 0 -150px;
+  }
+
+  &__links {
+    padding-top: 28px;
   }
 
   &__download-button {
