@@ -1,13 +1,58 @@
 .features {
+
+
+  &__problem-solving-list {
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 44px;
+  }
+
   &__problem-solving-element {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  &__problem-solving-header {
     color: $primary-color;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+  }
+
+  &__wrapper {
+    background-color: #f2f2f2;
+    background-image: url('/img/bg-triangle-white.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+  }
+
+  &__details-element {
+    text-align: center;
+  }
+
+  &__details-list {
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 84px;
   }
 
   &__details-title {
     color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 12px;
   }
 
   &__details-description {
     color: $primary-color;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 36px;
+  }
+
+  &__image {
+    text-align: center;
   }
 }
