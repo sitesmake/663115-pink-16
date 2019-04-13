@@ -17,27 +17,25 @@
   }
 
   &__social-link {
-    width: 50px;
-    height: 50px;
+    $size: 50px;
+    width: $size;
+    height: $size;
     font-size: 0;
     border: 3px solid #f2f2f2;
-    border-radius: 50px;
+    border-radius: $size;
     display: block;
   }
 
   &__social-link--twitter {
-    background: url("/img/icon-twitter.svg") no-repeat;
-    background-position: center;
+    background: url("/img/icon-twitter.svg") center no-repeat;
   }
 
   &__social-link--facebook {
-    background: url("/img/icon-facebook.svg") no-repeat;
-    background-position: center;
+    background: url("/img/icon-facebook.svg") center no-repeat;
   }
 
   &__social-link--youtube {
-    background: url("/img/icon-youtube.svg") no-repeat;
-    background-position: center;
+    background: url("/img/icon-youtube.svg") center no-repeat;
   }
 
   &__copyright-text {

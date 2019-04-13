@@ -18,8 +18,9 @@
   }
 
   &__os-link {
-    width: 60px;
-    height: 60px;
+    $size: 60px;
+    width: $size;
+    height: $size;
     display: block;
     font-size: 0;
   }

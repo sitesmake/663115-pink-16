@@ -38,8 +38,9 @@
   }
 
   &__like-button {
-    width: 12px;
-    height: 12px;
+    $size: 12px;
+    width: $size;
+    height: $size;
     background: transparent;
     border: none;
     font-size: 0;
