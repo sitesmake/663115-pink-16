@@ -1,5 +1,17 @@
 .main-nav {
+  &__element {
+    text-align: center;
+    border-bottom: 1px solid #010101;
+    border-top: 1px solid #485461;
+  }
+
   &__link {
+    display: block;
+    position: relative;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    line-height: 26px;
+    font-weight: bold;
     color: $secondary-color;
     text-decoration: none;
     text-transform: uppercase;

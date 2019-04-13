@@ -1,6 +1,7 @@
 $primary-color: #283645;
 $secondary-color: #ffffff;
 $third-color: #1d2631;
+// $fourth-color: #f2f2f2;
 
 @font-face {
   font-family: "Open Sans";
@@ -31,6 +32,11 @@ $third-color: #1d2631;
 @import "top";
 @import "main-nav";
 @import "jumbotron";
+@import "features";
+@import "intro";
+@import "featured";
+@import "card";
+@import "page-footer";
 
 body {
   font-family: "Open Sans", "Arial", sans-serif;
