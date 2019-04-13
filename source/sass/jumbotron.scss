@@ -3,7 +3,7 @@
   background-color: $third-color;
 
   &__visual {
-    background-image: url(/img/bg-back-mobile@1x.jpg);
+    background-image: url("/img/bg-back-mobile@1x.jpg");
   }
 
   &__download-button {
@@ -22,19 +22,18 @@
   }
 
   &__os-link--osx {
-    background: url(/img/logo-apple.svg) no-repeat;
+    background: url("/img/logo-apple.svg") no-repeat;
   }
 
   &__os-link--android {
-    background: url(/img/logo-android.svg) no-repeat;
+    background: url("/img/logo-android.svg") no-repeat;
   }
 
   &__os-link--windows {
-    background: url(/img/logo-microsoft.svg) no-repeat;
+    background: url("/img/logo-microsoft.svg") no-repeat;
   }
 
   &__text {
     font-weight: 300;
   }
-
 }
