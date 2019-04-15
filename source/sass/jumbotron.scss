@@ -1,0 +1,47 @@
+.jumbotron {
+  // height: 364px;
+  background-color: $third-color;
+
+  &__visual {
+    background-image: url("/img/bg-back-mobile@1x.jpg");
+  }
+
+  &__download-button {
+    color: $secondary-color;
+    border: 3px solid $secondary-color;
+    border-radius: 30px;
+    background: none;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 14px 32px 16px 36px;
+  }
+
+  &__os-link {
+    $size: 60px;
+    width: $size;
+    height: $size;
+    display: block;
+    font-size: 0;
+  }
+
+  &__os-link--osx {
+    background: url("/img/logo-apple.svg") no-repeat;
+  }
+
+  &__os-link--android {
+    background: url("/img/logo-android.svg") no-repeat;
+  }
+
+  &__os-link--windows {
+    background: url("/img/logo-microsoft.svg") no-repeat;
+  }
+
+  &__text {
+    font-weight: 300;
+    color: $secondary-color;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+  }
+}

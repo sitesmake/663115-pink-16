@@ -3,14 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк. Главная.</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="http://placehold.it/146x40" width="146" height="40" alt="Логотип Pink">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="page-header__top top">
+        <a class="top__logo">
+          <img class="top__logo-image" src="/img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink">
+        </a>
+
+        <button class="top__menu-toggle" type="button">
+          <!-- <img class="top__menu-image--burger" src="/img/icon-menu-burger.svg" alt=""> -->
+          <img class="top__menu-image--cross" src="/img/icon-menu-cross.svg" alt="">
+          Открыть/закрыть меню
+        </button>
+      </div>
+
+      <nav class="page-header__main-nav main-nav">
         <ul class="main-nav__list">
           <li class="main-nav__element main-nav__element--active">
             <a class="main-nav__link">Главная</a>
@@ -31,19 +40,19 @@
     <main class="page-main">
       <section class="jumbotron">
         <div class="jumbotron__visual">
-          <img class="jumbotron__in-action-image" src="http://placehold.it/260x290" width="260" height="290" alt="Приложение Pink в действии">
+          <img class="jumbotron__in-action-image" src="img/iphone-hand-mobile@1x.png" width="260" height="290" alt="Приложение Pink в действии">
         </div>
         <div class="jumbotron__links">
           <button class="jumbotron__download-button">Скачать приложение</button>
-          <ul class="jumboton__os-list">
-            <li class="jumboton__os-element">
-              <a class="jumboton__os-link" href="https://itunes.apple.com/">OS X</a>
+          <ul class="jumbotron__os-list">
+            <li class="jumbotron__os-element">
+              <a class="jumbotron__os-link jumbotron__os-link--osx" href="https://itunes.apple.com/">OS X</a>
             </li>
-            <li class="jumboton__os-element">
-              <a class="jumboton__os-link" href="https://play.google.com/">Android</a>
+            <li class="jumbotron__os-element">
+              <a class="jumbotron__os-link jumbotron__os-link--android" href="https://play.google.com/">Android</a>
             </li>
-            <li class="jumboton__os-element">
-              <a class="jumboton__os-link" href="https://www.microsoft.com/store/">Windows</a>
+            <li class="jumbotron__os-element">
+              <a class="jumbotron__os-link jumbotron__os-link--windows" href="https://www.microsoft.com/store/">Windows</a>
             </li>
           </ul>
           <p class="jumbotron__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
@@ -51,30 +60,32 @@
       </section>
 
       <section class="features">
-        <ul class="features__problem-solving-list">
-          <li class="features__problem-solving-element">
-            <h2 "features__problem-solving-header">Устали от серости мегаполиса?</h2>
-          </li>
-          <li class="features__problem-solving-element">
-            <h2 "features__problem-solving-header">Нам есть, что вам предложить!</h2>
-          </li>
-        </ul>
-        <ul class="features__details-list">
-          <li class="features__details-element">
-            <h3 class="features__details-title">Поднимает настроение</h3>
-            <p class="features__details-description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-          </li>
-          <li class="features__details-element">
-            <h3 class="features__details-title">Меняет мир вокруг</h3>
-            <p class="features__details-description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-          </li>
-          <li class="features__details-element">
-            <h3 class="features__details-title">Заводит новых друзей</h3>
-            <p class="features__details-description">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
-          </li>
-        </ul>
-        <div class="features__image">
-          <img src="http://placehold.it/160x280" width="160" height="280" alt="Скриншот Приложения Pink">
+          <ul class="features__problem-solving-list">
+            <li class="features__problem-solving-element">
+              <h2 class="features__problem-solving-header">Устали от серости мегаполиса?</h2>
+            </li>
+            <li class="features__problem-solving-element">
+              <h2 class="features__problem-solving-header">Нам есть, что вам предложить!</h2>
+            </li>
+          </ul>
+        <div class="features__wrapper">
+          <ul class="features__details-list">
+            <li class="features__details-element">
+              <h3 class="features__details-title">Поднимает настроение</h3>
+              <p class="features__details-description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            </li>
+            <li class="features__details-element">
+              <h3 class="features__details-title">Меняет мир вокруг</h3>
+              <p class="features__details-description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </li>
+            <li class="features__details-element">
+              <h3 class="features__details-title">Заводит новых друзей</h3>
+              <p class="features__details-description">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+            </li>
+          </ul>
+          <div class="features__image">
+            <img src="/img/iphone-screen-mobile@1x.png" width="157" height="320" alt="Скриншот Приложения Pink">
+          </div>
         </div>
       </section>
 

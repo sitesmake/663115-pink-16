@@ -1,0 +1,19 @@
+.main-nav {
+  &__element {
+    text-align: center;
+    border-bottom: 1px solid #010101;
+    border-top: 1px solid #485461;
+  }
+
+  &__link {
+    display: block;
+    position: relative;
+    padding: 18px 0;
+    line-height: 26px;
+    font-weight: bold;
+    color: $secondary-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+}

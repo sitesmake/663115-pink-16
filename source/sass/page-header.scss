@@ -1,0 +1,12 @@
+.page-header {
+  background-color: $primary-color;
+
+  &__top {
+    padding: 0 20px;
+    position: relative;
+  }
+
+  &__main-nav {
+    padding-top: 62px;
+  }
+}
