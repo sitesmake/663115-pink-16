@@ -4,6 +4,17 @@
 
   &__visual {
     background-image: url("/img/bg-back-mobile@1x.jpg");
+    text-align: center;
+  }
+
+  &__in-action-image {
+    padding-top: 100px;
+  }
+
+  &__links {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   &__download-button {
@@ -15,6 +26,17 @@
     line-height: 18px;
     font-weight: bold;
     padding: 14px 32px 16px 36px;
+    margin-bottom: 20px;
+  }
+
+  &__os-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  &__os-element {
+
   }
 
   &__os-link {
@@ -30,7 +52,7 @@
   }
 
   &__os-link--android {
-    background: url("/img/logo-android.svg") no-repeat;
+    background: url("/img/logo-android.svg") no-repeat 0px 9px;
   }
 
   &__os-link--windows {
@@ -43,5 +65,6 @@
     font-size: 14px;
     line-height: 24px;
     text-align: center;
+
   }
 }

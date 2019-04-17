@@ -3,6 +3,9 @@ $secondary-color: #ffffff;
 $third-color: #1d2631;
 // $fourth-color: #f2f2f2;
 
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
 @font-face {
   font-family: "Open Sans";
   src: url("/fonts/opensans.woff2") format("woff2");
