@@ -50,4 +50,32 @@
   &__image {
     text-align: center;
   }
+
+  @media (min-width: $tablet-width) {
+    &__wrapper {
+      display: flex;
+      flex-direction: row-reverse;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    &__problem-solving-header {
+      font-size: 40px;
+    }
+
+    &__screenshot {
+      width: 280px;
+      height: auto;
+    }
+
+    &__details-element {
+      text-align: left;
+    }
+
+    &__details-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  }
 }

@@ -5,6 +5,8 @@
   &__visual {
     background-image: url("/img/bg-back-mobile@1x.jpg");
     text-align: center;
+    background-size: cover;
+    background-position: center;
   }
 
   &__in-action-image {
@@ -65,6 +67,54 @@
     font-size: 14px;
     line-height: 24px;
     text-align: center;
+
+  }
+
+  @media (min-width: $tablet-width) {
+    background-image: url("/img/bg-back-mobile@1x.jpg");
+    display: flex;
+    padding-top: 0;
+
+    &__visual {
+      display: none;
+    }
+
+    &__in-action-image {
+      padding-top: 0;
+    }
+
+    &__headline {
+      color: white;
+      font-size: 40px;
+      font-weight: 300;
+      margin-bottom: 40px;
+      line-height: 50px;
+    }
+
+    &__links {
+      width: 100%;
+      margin-top: 75px;
+      padding: 20px 0px 100px;
+      background: url("/img/iphone-hand-mobile@1x.png") no-repeat bottom right;
+      background-size: contain;
+      margin-right: 20px;
+    }
+
+    &__links-wrapper {
+      padding-left: 20px;
+      width: 50%;
+      text-align: center;
+    }
+
+    &__headline {
+      // width: 100px;
+      padding: 0px 60px;
+    }
+
+    &__download-button {
+      width: 100%;
+      margin-bottom: 40px;
+    }
 
   }
 }

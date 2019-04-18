@@ -1,7 +1,15 @@
 .top {
   &__logo {
-    position: absolute;
-    margin: 20px 0;
+    display: block;
+    padding: 20px 0;
+  }
+
+  &__logo-image {
+    display: none;
+  }
+
+  &__logo-image--mobile {
+    display: block;
   }
 
   &__menu-toggle {
@@ -15,5 +23,19 @@
     top: 20px;
     width: 50px;
     height: 24px;
+  }
+
+  @media (min-width: $tablet-width) {
+    &__logo-image--mobile {
+      display: none;
+    }
+
+    &__logo-image--tablet {
+      display: block;
+    }
+
+    &__menu-toggle {
+      top: 50px;
+    }
   }
 }
