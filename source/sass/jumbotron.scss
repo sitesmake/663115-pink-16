@@ -13,6 +13,10 @@
     padding-top: 100px;
   }
 
+  &__headline {
+    display: none;
+  }
+
   &__links {
     padding: 30px 20px;
     display: flex;
@@ -29,6 +33,7 @@
     font-weight: bold;
     padding: 14px 32px 16px 36px;
     margin-bottom: 20px;
+    width: 100%;
   }
 
   &__os-list {
@@ -84,6 +89,7 @@
     }
 
     &__headline {
+      display: block;
       color: white;
       font-size: 40px;
       font-weight: 300;
