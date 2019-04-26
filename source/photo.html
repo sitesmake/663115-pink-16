@@ -7,18 +7,165 @@
   </head>
   <body>
     <header class="page-header">
+      <a class="logo">
+        <img class="logo__image" src="/img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink">
+      </a>
+      <button class="button" type="button">
+        <img class="button__image--cross" src="/img/icon-menu-cross.svg" alt="">
+          Открыть/закрыть меню
+      </button>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__element main-nav__element--active">
+            <a href="index.html" class="main-nav__link">Главная</a>
+          </li>
+          <li class="main-nav__element">
+            <a href="photo.html" class="main-nav__link">Фотографии</a>
+          </li>
+          <li class="main-nav__element">
+            <a href="konkurs.html" class="main-nav__link">Конкурс</a>
+          </li>
+          <li class="main-nav__element">
+            <a href="https://htmlacademy.ru" class="main-nav__link">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <section class="main-action">
+       <h1 class="main-action__heading">Фотографии пользователей</h1>
+       <p class="main-action__text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
     </section>
 
     <section class="photos">
+      <article class="card card--featured">
+        <img class="card__image card__image--featured" src="/img/panorama-mobile@1x.jpg" alt="Панорама дня">
+        <div class="card__author">
+          <span class="card__name">Анна</span>
+          <span class="card__time">(5 МИНУТ НАЗАД)</span>
+        </div>
+        <p class="card__text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую транслацию в перископе, задавайте свои вопросы!</p>
+        <div class="card__likes">
+          <button class="card__like-button" type="button">Like</button>
+          <span class="card__counter">Нравится: 215</span>
+        </div>
+      </article>
+      <article class="card">
+        <img class="card__image" src="/img/photo-car-mobile@1x.jpg" width="280" height="180" alt="Вчера он на луну летал, сегодня в руки к нам попал.">
+        <div class="card__author">
+          <span class="card__name">Левон</span>
+          <span class="card__time">(5 ЧАСОВ НАЗАД)</span>
+        </div>
+        <p class="card__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+        <div class="card__likes">
+          <button class="card__like-button" type="button">Like</button>
+          <span class="card__counter">Нравится: 356</span>
+        </div>
+       </article>
+       <article class="card">
+         <img class="card__image" src="/img/photo-drumset-mobile@1x.jpg" width="280" height="180" alt="Соседи будут рады!">
+         <div class="card__author">
+           <span class="card__name">Антон</span>
+           <span class="card__time">(12 ЧАСОВ НАЗАД)</span>
+         </div>
+         <p class="card__text">Соседи будут рады!</p>
+         <div class="card__likes">
+           <button class="card__like-button" type="button">Like</button>
+           <span class="card__counter">Нравится: 666</span>
+         </div>
+       </article>
+       <article class="card">
+         <img class="card__image" src="/img/photo-window-tablet@1x.jpg" width="280" height="180" alt="Здесь могла быть ваша цитата о высоком и вечном.">
+         <div class="card__author">
+           <span class="card__name">Борис</span>
+           <span class="card__time">(20 ЧАСОВ НАЗАД)</span>
+         </div>
+         <p class="card__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+         <div class="card__likes">
+           <button class="card__like-button" type="button">Like</button>
+           <span class="card__counter">Нравится: 215</span>
+         </div>
+       </article>
+       <article class="card">
+         <img class="card__image" src="/img/photo-fair-mobile@1x.jpg" width="280" height="180" alt="Самая кубанская в мире!">
+         <div class="card__author">
+           <span class="card__name">Сергей</span>
+           <span class="card__time">(25 ЧАСОВ НАЗАД)</span>
+         </div>
+         <p class="card__text">Самая кубанская в мире!</p>
+         <div class="card__likes">
+           <button class="card__like-button" type="button">Like</button>
+           <span class="card__counter">Нравится: 4</span>
+         </div>
+       </article>
+       <article class="card">
+         <img class="card__image" src="/img/photo-road-mobile@1x.jpg" width="280" height="180" alt="Где снег-то?">
+         <div class="card__author">
+           <span class="card__name">Максим</span>
+           <span class="card__time">(40 ЧАСОВ НАЗАД)</span>
+         </div>
+         <p class="card__text">Где снег-то?</p>
+         <div class="card__likes">
+           <button class="card__like-button" type="button">Like</button>
+           <span class="card__counter">Нравится: 150</span>
+         </div>
+       </article>
+       <article class="card">
+         <img class="card__image" src="/img/photo-pov-mobile@1x.jpg" width="280" height="180" alt="Всем GM и взаимные лайки!">
+         <div class="card__author">
+           <span class="card__name">Надежда</span>
+           <span class="card__time">(45 ЧАСОВ НАЗАД)</span>
+         </div>
+         <p class="card__text">Всем GM и взаимные лайки!</p>
+         <div class="card__likes">
+           <button class="card__like-button" type="button">Like</button>
+           <span class="card__counter">Нравится: 2560</span>
+         </div>
+       </article>
     </section>
 
     <section class="filter">
+      <p class="filter__description">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+      <div class="filter__wrapper">
+        <img src="http://placehold.it/280x385" width="280" height="385" alt="Загружаемое фото">
+        <ul class="filter__buttons-list">
+          <li class="filter__button-item">
+            <button type="filter__button filter__button--crop"></button>
+          </li>
+          <li class="filter__button-item">
+            <button type="filter__button filter__button--colorize"></button>
+          </li>
+          <li class="filter__button-item">
+            <button type="filter__button filter__button--bw"></button>
+          </li>
+        </ul>
+        <div class="filter__slider"></div>
+      </div>
+      <button class="button filter__button--post">Запостить</button>
+      <button class="button filter__button--cancel">Отмена</button>
     </section>
 
     <footer class="page-footer">
+      <a class="logo">
+        <img class="logo__image" src="/img/logo-pink-blue-mobile.svg" width="146" height="40" alt="Логотип Pink">
+      </a>
+      <ul class="page-footer__social-list">
+        <li class="page-footer__social-element">
+          <a href="https://twitter.com" class="page-footer__social-link page-footer__social-link--twitter">Twitter</a>
+        </li>
+        <li class="page-footer__social-element">
+          <a href="https://fb.com" class="page-footer__social-link page-footer__social-link--facebook">Facebook</a>
+        </li>
+        <li class="page-footer__social-element">
+          <a href="https://youtube.com" class="page-footer__social-link page-footer__social-link--youtube">Youtube</a>
+        </li>
+      </ul>
+      <div class="page-footer__copyright-wrapper">
+        <span class="page-footer__copyright-text">Разработано</span>
+        <a href="https://htmlacademy.ru" class="page-footer__copyright-link">
+          <img width="27px" height="34px" class="page-footer__copyright-link-image" src="/img/logo-htmlacademy.svg" alt="">
+        </a>
+      </div>
     </footer>
   </body>
 </html>
