@@ -7,12 +7,14 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="logo">
-        <img class="logo__image" src="/img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink">
-      </a>
-      <button class="button" type="button">
-        <img class="button__image button__image--cross" src="/img/icon-menu-cross.svg" alt="Открыть/закрыть меню">
-      </button>
+      <div class="wrapper">
+        <a class="logo">
+          <img class="logo__image" src="/img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink">
+        </a>
+        <button class="button" type="button">
+          <img class="button__image button__image--cross" src="/img/icon-menu-cross.svg" alt="Открыть/закрыть меню">
+        </button>
+      </div>
       <nav class="main-nav">
         <ul class="main-nav__list">
           <li class="main-nav__element main-nav__element--active">
@@ -32,13 +34,20 @@
     </header>
 
     <section class="main-action">
-       <h1 class="main-action__heading">Фотографии пользователей</h1>
-       <p class="main-action__text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+      <div class="wrapper">
+        <h1 class="main-action__heading">Фотографии пользователей</h1>
+      </div>
+      <div class="wrapper">
+        <p class="main-action__text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+      </div>
     </section>
 
     <section class="photos">
-      <article class="card card--featured">
-        <img class="card__image card__image--featured" src="/img/panorama-mobile@1x.jpg" alt="Панорама дня">
+      <div class="panorama">
+        <span class="panorama__label">Панорама дня</span>
+        <img class="panorama__image" src="/img/panorama-mobile@1x.jpg" alt="Панорама дня">
+      </div>
+      <article class="card">
         <div class="card__author">
           <span class="card__name">Анна</span>
           <span class="card__time">(5 МИНУТ НАЗАД)</span>
@@ -123,7 +132,7 @@
        </article>
     </section>
 
-    <section class="filter">
+    <!-- <section class="filter">
       <p class="filter__description">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
       <div class="filter__wrapper">
         <img src="http://placehold.it/280x385" width="280" height="385" alt="Загружаемое фото">
@@ -142,7 +151,7 @@
       </div>
       <button class="button filter__button filter__button--post">Запостить</button>
       <button class="button filter__button filter__button--cancel">Отмена</button>
-    </section>
+    </section> -->
 
     <footer class="page-footer">
       <a class="logo">

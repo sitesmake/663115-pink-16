@@ -7,12 +7,14 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="logo">
-        <img class="logo__image" src="/img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink">
-      </a>
-      <button class="button" type="button">
-        <img class="button__image button__image--cross" src="/img/icon-menu-cross.svg" alt="Открыть/закрыть меню">
-      </button>
+      <div class="wrapper">
+        <a class="logo">
+          <img class="logo__image" src="/img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink">
+        </a>
+        <button class="button" type="button">
+          <img class="button__image button__image--cross" src="/img/icon-menu-cross.svg" alt="Открыть/закрыть меню">
+        </button>
+      </div>
       <nav class="main-nav">
         <ul class="main-nav__list">
           <li class="main-nav__element main-nav__element--active">
@@ -32,49 +34,57 @@
     </header>
 
     <section class="hero">
-      <img class="hero__image" src="img/iphone-hand-mobile@1x.png" width="260" height="290" alt="Приложение Pink в действии">
-      <a class="hero__download-link">Скачать приложение</a>
-      <ul class="hero__os-list">
-        <li class="hero__os-element">
-          <a class="hero__os-link" href="https://itunes.apple.com/">
-            <img class="hero__os-link-image" src="img/logo-apple.svg" alt="Скачать Pink для OSX">
-          </a>
-        </li>
-        <li class="hero__os-element">
-          <a class="hero__os-link" href="https://play.google.com/">
-            <img class="hero__os-link-image" src="img/logo-android.svg" alt="Скачать Pink для Android">
-          </a>
-        </li>
-        <li class="hero__os-element">
-          <a class="hero__os-link" href="https://www.microsoft.com/store/">
-            <img class="hero__os-link-image" src="img/logo-microsoft.svg" alt="Скачать Pink для Windows">
-          </a>
-        </li>
-      </ul>
-      <p class="hero__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      <div class="wrapper">
+        <img class="hero__image" src="img/iphone-hand-mobile@1x.png" width="260" height="290" alt="Приложение Pink в действии">
+      </div>
+      <div class="wrapper">
+        <a class="hero__download-link">Скачать приложение</a>
+        <ul class="hero__os-list">
+          <li class="hero__os-element">
+            <a class="hero__os-link" href="https://itunes.apple.com/">
+              <img class="hero__os-link-image" src="img/logo-apple.svg" alt="Скачать Pink для OSX">
+            </a>
+          </li>
+          <li class="hero__os-element">
+            <a class="hero__os-link" href="https://play.google.com/">
+              <img class="hero__os-link-image" src="img/logo-android.svg" alt="Скачать Pink для Android">
+            </a>
+          </li>
+          <li class="hero__os-element">
+            <a class="hero__os-link" href="https://www.microsoft.com/store/">
+              <img class="hero__os-link-image" src="img/logo-microsoft.svg" alt="Скачать Pink для Windows">
+            </a>
+          </li>
+        </ul>
+        <p class="hero__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </div>
     </section>
 
     <section class="features">
-      <p class="features__problem-solving-header">Устали от серости мегаполиса?</p>
-      <p class="features__problem-solving-header">Нам есть, что вам предложить!</p>
-      <ul class="features__details-list">
-        <li class="features__details-element">
-          <strong class="features__details-title">Поднимает настроение</strong>
-          <p class="features__details-description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-        </li>
-        <li class="features__details-element">
-          <strong class="features__details-title">Меняет мир вокруг</strong>
-          <p class="features__details-description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-        </li>
-        <li class="features__details-element">
-          <strong class="features__details-title">Заводит новых друзей</strong>
-          <p class="features__details-description">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
-        </li>
-      </ul>
-      <img class="features__image" src="/img/iphone-screen-mobile@1x.png" width="157" height="320" alt="Скриншот Приложения Pink">
+      <div class="wrapper">
+        <p class="features__problem-solving-header">Устали от серости мегаполиса?</p>
+        <p class="features__problem-solving-header">Нам есть, что вам предложить!</p>
+      </div>
+      <div class="wrapper">
+        <ul class="features__details-list">
+          <li class="features__details-element">
+            <strong class="features__details-title">Поднимает настроение</strong>
+            <p class="features__details-description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li class="features__details-element">
+            <strong class="features__details-title">Меняет мир вокруг</strong>
+            <p class="features__details-description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </li>
+          <li class="features__details-element">
+            <strong class="features__details-title">Заводит новых друзей</strong>
+            <p class="features__details-description">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+          </li>
+        </ul>
+        <img class="features__image" src="/img/iphone-screen-mobile@1x.png" width="157" height="320" alt="Скриншот Приложения Pink">
+      </div>
     </section>
 
-    <section class="reviews">
+    <!-- <section class="reviews">
       <ul class="reviews__list">
         <li class="reviews__item">
           <p class="reviews__user">Николай Петров</p>
@@ -134,6 +144,6 @@
             <p class="contacts__action-value">ул. Большая Конюшенная, 19/8</p>
           </li>
         </ul>
-    </footer>
+    </footer> -->
   </body>
 </html>
