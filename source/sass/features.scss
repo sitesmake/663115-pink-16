@@ -1,84 +1,39 @@
 .features {
-  &__problem-solving-list {
-    // width: 280px;
-    margin: 0 auto;
-    padding-top: 44px;
-  }
-
-  &__problem-solving-element {
+  &__header-wrapper {
+    background-color: white;
+    padding: 45px 20px;
     text-align: center;
-    margin-bottom: 28px;
   }
 
   &__problem-solving-header {
-    color: $primary-color;
     font-size: 24px;
-    line-height: 29px;
     font-weight: 300;
+    margin-bottom: 40px;
+    color: $primary-color;
   }
 
-  &__wrapper {
+  &__content-wrapper {
     background-color: #f2f2f2;
-    background-image: url("/img/bg-triangle-white.svg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: top;
-  }
-
-  &__details-element {
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   &__details-list {
-    // width: 280px;
-    margin: 0 auto;
-    padding: 84px 20px 0px 20px;
-  }
-
-  &__details-title {
-    color: #000000;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 12px;
-  }
-
-  &__details-description {
-    color: $primary-color;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 36px;
-  }
-
-  &__image {
     text-align: center;
   }
 
-  @media (min-width: $tablet-width) {
-    &__wrapper {
-      display: flex;
-      flex-direction: row-reverse;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+  &__details-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
 
-    &__problem-solving-header {
-      font-size: 40px;
-    }
-
-    &__screenshot {
-      width: 280px;
-      height: auto;
-    }
-
-    &__details-element {
-      text-align: left;
-    }
-
-    &__details-title {
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
+  &__details-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: $primary-color;
+    margin-bottom: 40px;
   }
 }

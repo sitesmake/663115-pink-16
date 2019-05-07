@@ -3,6 +3,7 @@ $secondary-color: #ffffff;
 $third-color: #1d2631;
 // $fourth-color: #f2f2f2;
 
+$mobile-width: 320px;
 $tablet-width: 660px;
 $desktop-width: 1200px;
 
@@ -32,15 +33,13 @@ $desktop-width: 1200px;
 
 @import "reset";
 @import "page-header";
-@import "top";
 @import "main-nav";
-@import "jumbotron";
+@import "hero";
 @import "features";
-@import "intro";
-@import "featured";
-@import "card";
-@import "page-footer";
 
 body {
   font-family: "Open Sans", "Arial", sans-serif;
+  max-width: $mobile-width;
+  margin: 0 auto;
+  background: $primary-color;
 }
