@@ -36,6 +36,10 @@ $desktop-width: 1200px;
 @import "main-nav";
 @import "hero";
 @import "features";
+@import "main-action";
+@import "photos";
+@import "card";
+@import "page-footer";
 
 body {
   font-family: "Open Sans", "Arial", sans-serif;

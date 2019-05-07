@@ -1,0 +1,51 @@
+.page-footer {
+  &__content-wrapper {
+    padding: 40px 60px;
+    background: white;
+    text-align: center;
+  }
+
+  &__logo {
+    display: block;
+    margin-bottom: 36px;
+  }
+
+  &__social-list {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__social-link {
+    $size: 50px;
+    width: $size;
+    height: $size;
+    font-size: 0;
+    border: 3px solid #f2f2f2;
+    border-radius: $size;
+    display: block;
+  }
+
+  &__social-link--twitter {
+    background: url("/img/icon-twitter.svg") center no-repeat;
+  }
+
+  &__social-link--facebook {
+    background: url("/img/icon-facebook.svg") center no-repeat;
+  }
+
+  &__social-link--youtube {
+    background: url("/img/icon-youtube.svg") center no-repeat;
+  }
+
+  &__copyright-text {
+    color: $primary-color;
+    font-size: 14px;
+  }
+
+  &__copyright-link-image {
+    padding-left: 16px;
+    position: relative;
+    top: 10px;
+  }
+}
