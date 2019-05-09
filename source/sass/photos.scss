@@ -1,21 +1,21 @@
 .photos {
   background: white;
+}
 
-  &__panorama-wrapper {
-    position: relative;
-  }
+.photos__panorama-wrapper {
+  position: relative;
+}
 
-  &__panorama-label {
-    background: red;
-    position: absolute;
-    right: 20px;
-    text-transform: uppercase;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    width: 50%;
-    text-align: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+.photos__panorama-label {
+  background: red;
+  position: absolute;
+  right: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }

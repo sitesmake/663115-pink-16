@@ -1,14 +1,12 @@
-.main-nav {
-  &__element {
-    padding: 25px 20px;
-    text-align: center;
-  }
+.main-nav__element {
+  padding: 25px 20px;
+  text-align: center;
+}
 
-  &__link {
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+.main-nav__link {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
